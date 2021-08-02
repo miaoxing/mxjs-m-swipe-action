@@ -1,0 +1,29 @@
+{
+  "name": "@mxjs/m-swipe-action",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "engines": {
+    "node": ">=12.10.0"
+  },
+  "jest": {
+    "preset": "jest-preset-miaoxing",
+    "moduleNameMapper": {
+      "@tarojs/components": "@tarojs/components/dist-h5/react"
+    }
+  },
+  "dependencies": {
+    "@tarojs/components": "^3.2.10"
+  },
+  "devDependencies": {
+    "@miaoxing/dev": "^7.0.1",
+    "@testing-library/react": "^11.2.6"
+  },
+  "ciDependencies": {
+    "@miaoxing/dev": "miaoxing/dev"
+  }
+}
