@@ -1,0 +1,17 @@
+.mx-swipe-action {
+  &-content {
+    // @link https://github.com/NervJS/taro-ui/blob/3364a367386a567a66b0db74cd07c2298f41fafb/packages/taro-ui/src/style/components/swipe-action.scss#L23
+    transition: transform 300ms cubic-bezier(0.36, 0.66, 0.04, 1);
+  }
+
+  &-options {
+    position: absolute;
+    top: 0;
+    // 显示在内容的最右边
+    right: 0;
+    // 移动到内容的外部
+    transform: translate3d(100%, 0, 0);
+    display: flex;
+    height: 100%;
+  }
+}
