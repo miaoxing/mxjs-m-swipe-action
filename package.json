@@ -17,6 +17,7 @@
     }
   },
   "dependencies": {
+    "@accessible/use-id": "^1.1.2",
     "@tarojs/components": "^3.2.10"
   },
   "devDependencies": {

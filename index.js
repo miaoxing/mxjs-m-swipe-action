@@ -2,26 +2,19 @@ import {View} from '@fower/taro';
 import {useState, useEffect} from 'react';
 import Taro from '@tarojs/taro';
 import './index.scss';
-
-let counter = 0;
+import useId from '@accessible/use-id';
 import PropTypes from 'prop-types';
 
 const SwipeAction = ({index: indexProp, options = [], children}) => {
   const [startX, setStartX] = useState(0);
   const [moveX, setMoveX] = useState(0);
   const [actionWidth, setActionWidth] = useState(64);
-  const [index] = useState(() => {
-    if (typeof indexProp !== 'undefined') {
-      return indexProp;
-    } else {
-      return counter++;
-    }
-  });
+  const cls = useId(indexProp, '__mx-swipe-action-options-');
 
   // 自动获取宽度
   useEffect(() => {
     const query = Taro.createSelectorQuery();
-    query.select('.mx-swipe-action-options-' + index).boundingClientRect(rect => {
+    query.select('.' + cls).boundingClientRect(rect => {
       if (!rect) {
         return;
       }
@@ -78,7 +71,7 @@ const SwipeAction = ({index: indexProp, options = [], children}) => {
         <View>
           {children}
         </View>
-        <View className={'mx-swipe-action-options mx-swipe-action-options-' + index} onClick={handleClick}>
+        <View className={'mx-swipe-action-options ' + cls} onClick={handleClick}>
           {options.map(({children, ...props}) => (
             <View px4 white toCenter {...props} key={children}>
               {children}
