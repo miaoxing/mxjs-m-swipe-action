@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SwipeAction basic 1`] = `
+<div>
+  <taro-view-core
+    style="overflow: hidden;"
+  >
+    <taro-view-core
+      class="mx-swipe-action-content"
+      style="transform: translate3d(0px, 0, 0);"
+    >
+      <taro-view-core />
+      <taro-view-core
+        class="mx-swipe-action-options __mx-swipe-action-options-0"
+      />
+    </taro-view-core>
+  </taro-view-core>
+</div>
+`;
