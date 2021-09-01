@@ -2,14 +2,14 @@ import {View} from '@fower/taro';
 import {useState, useEffect} from 'react';
 import Taro from '@tarojs/taro';
 import './index.scss';
-import useId from '@accessible/use-id';
+import useUid from 'use-uid';
 import PropTypes from 'prop-types';
 
 const SwipeAction = ({index: indexProp, options = [], children}) => {
   const [startX, setStartX] = useState(0);
   const [moveX, setMoveX] = useState(0);
   const [actionWidth, setActionWidth] = useState(64);
-  const cls = useId(indexProp, '__mx-swipe-action-options-');
+  const cls = useUid('__mx-swipe-action-options-', indexProp);
 
   // 自动获取宽度
   useEffect(() => {
