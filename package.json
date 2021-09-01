@@ -17,8 +17,8 @@
     }
   },
   "dependencies": {
-    "@accessible/use-id": "^1.1.2",
-    "@tarojs/components": "^3.2.10"
+    "@tarojs/components": "^3.2.10",
+    "use-uid": "^0.1.0"
   },
   "devDependencies": {
     "@miaoxing/dev": "^7.0.1",
