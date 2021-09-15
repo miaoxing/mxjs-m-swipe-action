@@ -11,7 +11,7 @@ exports[`SwipeAction basic 1`] = `
     >
       <taro-view-core />
       <taro-view-core
-        class="mx-swipe-action-options __mx-swipe-action-options-0"
+        class="mx-swipe-action-options __mx-swipe-action-options-1"
       />
     </taro-view-core>
   </taro-view-core>
