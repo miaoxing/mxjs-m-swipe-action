@@ -17,10 +17,10 @@
     }
   },
   "dependencies": {
-    "@tarojs/components": "^3.2.10",
+    "@tarojs/components": "^3.3.10",
     "use-uid": "^1.0.0",
     "@fower/taro": "^1.52.0",
-    "@tarojs/taro": "^3.2.10"
+    "@tarojs/taro": "^3.3.10"
   },
   "devDependencies": {
     "react": "^17.0.2",
