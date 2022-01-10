@@ -1,6 +1,6 @@
 import {View} from '@fower/taro';
 import {useState, useEffect} from 'react';
-import Taro from '@tarojs/taro';
+import {createSelectorQuery} from '@tarojs/taro';
 import './index.scss';
 import useUid from 'use-uid';
 import PropTypes from 'prop-types';
@@ -13,7 +13,7 @@ const SwipeAction = ({index: indexProp, options = [], children}) => {
 
   // 自动获取宽度
   useEffect(() => {
-    const query = Taro.createSelectorQuery();
+    const query = createSelectorQuery();
     query.select('.' + cls).boundingClientRect(rect => {
       if (!rect) {
         return;
