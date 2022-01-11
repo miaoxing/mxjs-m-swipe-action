@@ -1,6 +1,8 @@
 import SwipeAction from '..';
 import {render} from '@testing-library/react';
-import '../initTaroH5';
+import {init} from 'taro-test';
+
+init();
 
 describe('SwipeAction', () => {
   test('basic', () => {
