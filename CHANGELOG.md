@@ -1,3 +1,26 @@
+## [0.1.2](https://github.com/miaoxing/mxjs-m-swipe-action/compare/v0.1.1...v0.1.2) (2022-01-12)
+
+
+### Bug Fixes
+
+* 更新 `[@fower](https://github.com/fower)` 到 `^1.59.0` ([8470b13](https://github.com/miaoxing/mxjs-m-swipe-action/commit/8470b136f6061e639f320f712ab1acbb9feebd6d))
+
+
+### Features
+
+* **taro:** 限制 taro 为 3.3.x，3.4 有 BREAKING CHANGES ([61c0460](https://github.com/miaoxing/mxjs-m-swipe-action/commit/61c046087c96facdbd23a0f44f1bea7103ff0ce7))
+* 更新 `[@fower](https://github.com/fower)` 到 `^1.61` ([afa8f71](https://github.com/miaoxing/mxjs-m-swipe-action/commit/afa8f71665b5becec6018f7a23fb4f9a8d64e918))
+* 更新 taro 到 `^3.3.20` ([3e2c02a](https://github.com/miaoxing/mxjs-m-swipe-action/commit/3e2c02a7cde6e0b13fa992c217e0164d9c2f3085))
+
+
+
+
+
+### Dependencies
+
+* **@miaoxing/dev:** upgrade from `8.0.0` to `8.0.1`
+* **taro-test:** upgrade from `0.1.0` to `0.1.1`
+
 ## [0.1.1](https://github.com/miaoxing/mxjs-m-swipe-action/compare/v0.1.0...v0.1.1) (2021-10-28)
 
 
