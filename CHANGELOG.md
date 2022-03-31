@@ -1,3 +1,10 @@
+## [0.1.4](https://github.com/miaoxing/mxjs-m-swipe-action/compare/v0.1.3...v0.1.4) (2022-03-31)
+
+
+### Features
+
+* 更新 `fower` 到 `^1.70.0` ([f91ecee](https://github.com/miaoxing/mxjs-m-swipe-action/commit/f91ecee3dc29c34c65e4869b4b7861bd8a4f1f26))
+
 ## [0.1.3](https://github.com/miaoxing/mxjs-m-swipe-action/compare/v0.1.2...v0.1.3) (2022-02-05)
 
 
