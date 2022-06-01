@@ -1,3 +1,14 @@
+## [0.1.5](https://github.com/miaoxing/mxjs-m-swipe-action/compare/v0.1.4...v0.1.5) (2022-06-01)
+
+
+
+
+
+### Dependencies
+
+* **@miaoxing/dev:** upgrade from `8.1.0` to `8.1.1`
+* **taro-test:** upgrade from `0.1.2` to `0.1.3`
+
 ## [0.1.4](https://github.com/miaoxing/mxjs-m-swipe-action/compare/v0.1.3...v0.1.4) (2022-03-31)
 
 
