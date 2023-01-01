@@ -1,3 +1,19 @@
+# [1.1.0](https://github.com/miaoxing/mxjs-m-swipe-action/compare/v1.0.1...v1.1.0) (2023-01-01)
+
+
+### Features
+
+* 更新 `fower` 到 `~1.75.0` ([14a528e](https://github.com/miaoxing/mxjs-m-swipe-action/commit/14a528e9824502a1db95ccc876845e376f03c9e1))
+
+
+
+
+
+### Dependencies
+
+* **@miaoxing/dev:** upgrade from `8.1.3` to `8.2.0`
+* **taro-test:** upgrade from `1.0.1` to `1.0.2`
+
 ## [1.0.1](https://github.com/miaoxing/mxjs-m-swipe-action/compare/v1.0.0...v1.0.1) (2022-08-02)
 
 
