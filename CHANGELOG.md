@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/miaoxing/mxjs-m-swipe-action/compare/v1.1.6...v1.2.0) (2024-01-31)
+
+
+### Features
+
+* 更新 `react` 支持 18 ([8436c69](https://github.com/miaoxing/mxjs-m-swipe-action/commit/8436c6930cc6cf642392263c0b2262b9acca0752))
+
 ## [1.1.6](https://github.com/miaoxing/mxjs-m-swipe-action/compare/v1.1.5...v1.1.6) (2024-01-08)
 
 

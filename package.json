@@ -1,6 +1,6 @@
 {
   "name": "@mxjs/m-swipe-action",
-  "version": "1.1.6",
+  "version": "1.2.0",
   "main": "index.js",
   "license": "MIT",
   "publishConfig": {
