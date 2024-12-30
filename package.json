@@ -1,6 +1,6 @@
 {
   "name": "@mxjs/m-swipe-action",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "main": "index.js",
   "license": "MIT",
   "publishConfig": {
@@ -25,10 +25,10 @@
   "devDependencies": {
     "react": ">=16.13.1",
     "react-dom": ">=16.13.1",
-    "@miaoxing/dev": "^9.2.0",
+    "@miaoxing/dev": "^9.3.0",
     "@testing-library/react": "^14",
     "prop-types": "^15.7.2",
-    "taro-test": "^1.0.12"
+    "taro-test": "^1.0.13"
   },
   "peerDependencies": {
     "react": ">=16.13.1",
