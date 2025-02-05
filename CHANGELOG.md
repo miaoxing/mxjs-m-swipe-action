@@ -1,3 +1,10 @@
+## [1.2.7](https://github.com/miaoxing/mxjs-m-swipe-action/compare/v1.2.6...v1.2.7) (2025-02-05)
+
+
+### Bug Fixes
+
+* 限制 react 版本低于 19，避免测试失败 ([5d62c8d](https://github.com/miaoxing/mxjs-m-swipe-action/commit/5d62c8dded13ef091222a30629bd6da25808c15e))
+
 ## [1.2.6](https://github.com/miaoxing/mxjs-m-swipe-action/compare/v1.2.5...v1.2.6) (2024-12-31)
 
 
